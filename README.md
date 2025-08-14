@@ -21,7 +21,7 @@ bash run.sh
 ## Details and facts
 
 ### File pattern:
-
+<pre>
 Games/
 |─ MainGame/       |/| This folder is where you can make your game using GoDot
 │  ├─ Assets/      |/| Put the assets of your project here
@@ -33,7 +33,7 @@ Games/
 ├─ README.md       |/| Tutorial file
 ├─ Games.ino       |/| File to upload to the ESP32
 └─ run.sh          |/| Execute the server after setup
-
+</pre>
 ### OS:
 
 Tested on Arch Linux, but can be compatible just the run.sh may need to be changed. RTOS: FreeRTOS. Boards recomended: ESP32 dev-kit, ESP32-WROOM, similars
