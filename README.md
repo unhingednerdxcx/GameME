@@ -33,6 +33,13 @@ Games/
 ├─ README.md       |/| Tutorial file
 ├─ Games.ino       |/| File to upload to the ESP32
 └─ run.sh          |/| Execute the server after setup
+
+
+### wiring
+  
+<img width="1587" height="2245" alt="wiring" src="https://github.com/user-attachments/assets/ce8b6f39-4b94-4a75-8e17-87fe29a00606" />
+
+
 </pre>
 ### OS:
 
