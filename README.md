@@ -38,6 +38,7 @@ Games/
 ### wiring
   
 <img width="1587" height="2245" alt="wiring" src="https://github.com/user-attachments/assets/ce8b6f39-4b94-4a75-8e17-87fe29a00606" />
+  where pin a = button a (like wise for a to f) k for joystick button (when u press DOWN on a joystick), x/y for dimentions of joystick movement
 
 
 </pre>
