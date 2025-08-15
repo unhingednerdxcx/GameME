@@ -1,4 +1,7 @@
-Ever wanted to make a game with a controller and play it on your PC? Well this repo makes that dream come to life. I have set-ten up the controller and base of the game so you can customize everything. I used maybe a million commands along with tips to assist you. By the way i used Arduino IDE for the .ino code, for python i used VSC and for Godot i used Godot engine. STILL NOT TESTED ON ESP32.
+<img width="1200" height="480" alt="pixil-frame-0(2)" src="https://github.com/user-attachments/assets/39489404-2f1a-4ea5-82fc-4697ba7cc796" />
+
+Ever wanted to make a game with a controller and play it
+on your PC? Well this repo makes that dream come to life. I have set-ten up the controller and base of the game so you can customize everything. I used maybe a million commands along with tips to assist you. By the way i used Arduino IDE for the .ino code, for python i used VSC and for Godot i used Godot engine. STILL NOT TESTED ON ESP32.
 
 # Table of contents:
 
