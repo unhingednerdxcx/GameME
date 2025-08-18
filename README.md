@@ -7,37 +7,47 @@ on your PC? Well this repo makes that dream come to life. I have set-ten up the 
 # Table of contents:
 
 - How to set up
-- Details and facts
+- Wiring and file system
+- Limitations --SEE THIS FIRST IF YOU USE WINDOWS
 
 ## How to set up:
 
-Firstly we will start with customizing the .ino file.
+Firstly we will start with customizing the `.ino` file.
 
-At the beginning, there is everything you need to customize. At the very bottom, there are  tips and tricks (shortcuts) and details if you want to fork. The comments are also there to help you fork. Now to the both python file, At the beginning, there is a tutorial to help you. Now at the MainGame folder, In the others folder, there is the data.JSON, MAKE SURE TO CHECK IF THE MAX ADC ON YOUR BOARD IS 1023 OR 4095.  The Script folder contains a .gd script. Thats for moving the sprite based on the JSON. After that, open terminal and write this line:
+<pre>
+1. At the beginning, there is everything you need to customize. At the very bottom, there are  tips and tricks (shortcuts)
+  and details if you want to fork. The comments are also there to help you fork.
+  
+2. Now to the both python file, No customization needed and there are comments for explanation
+  
+3. Now at the MainGame folder, in the Others folder, there is the `data.JSON`, MAKE SURE TO CHECK IF THE MAX ANALOG VALUE
+  ON YOUR BOARD IS 1023 OR 4095.  The Script folder contains a `.gd` script. Thats for moving the sprite 
+  based on the JSON. At the begining, it will explain what you need to do
+  
+4. After that, open terminal and write this line to execute server:
+</pre>
 
 ```bash
-chmod +x run.sh
-# OR
 cd <insert where the Games folder is>
 bash run.sh
 ```
 
-## Details and facts
+## Wiring and file system
 
 ### File pattern:
 <pre>
 Games/
-|─ MainGame/       |/| This folder is where you can make your game using GoDot
-│  ├─ Assets/      |/| Put the assets of your project here
-│  ├─ Nodes/       |/| Put the scenes of your project here
-│  ├─ Scripts/     |/| Put the codes here
-│  └─ Others/      |/| Put other JSON files or stuff here
-├─ Main.py         |/| Main entry point for the server
-├─ Bridge.py       |/| Handles the internet connection part for Main.py
-├─ README.md       |/| Tutorial file
-├─ Games.ino       |/| File to upload to the ESP32
-└─ run.sh          |/| Execute the server after setup
-
+|─ MainGame/       |I| This folder is where you can make your game using GoDot
+│  ├─ Assets/      |I| Put the assets of your project here
+│  ├─ Nodes/       |I| Put the scenes of your project here
+│  ├─ Scripts/     |I| Put the codes here
+│  └─ Others/      |I| Put other JSON files or stuff here
+├─ Main.py         |I| Main entry point for the server
+├─ Bridge.py       |I| Handles the internet connection part for Main.py
+├─ README.md       |I| Tutorial file
+├─ Games.ino       |I| File to upload to the ESP32
+└─ run.sh          |I| Execute the server after setup
+</pre>
 
 ### wiring
   
@@ -45,8 +55,17 @@ Games/
   where pin a = button a (like wise for a to f) k for joystick button (when u press DOWN on a joystick), x/y for dimentions of joystick movement
 
 
-</pre>
+
 ### OS:
 
-Tested on Arch Linux, but can be compatible just the run.sh may need to be changed. RTOS: FreeRTOS. Boards recomended: ESP32 dev-kit, ESP32-WROOM, similars
+Tested on Arch Linux, but can be compatible just the `run.sh` may need to be changed. RTOS: FreeRTOS. Boards recomended: ESP32 dev-kit, ESP32-WROOM, similars
 
+## Limitations:
+This is specifically designed for Linux(arch) but can work on: MacOS Debian-based linux distros, red-hat-based linux distros. To run on Windows listento the following instructions:
+
+Instead to running the server by using `run.sh` you will use `run.bat`. Press win+R and type cmd to open terminal. then run this:
+
+```cmd
+cd <insert the FOLDER path>
+run.bat
+```
