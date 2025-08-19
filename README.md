@@ -61,7 +61,7 @@ Games/
 Tested on Arch Linux, but can be compatible just the `run.sh` may need to be changed. Boards recomended: ESP32 dev-kit, ESP32-WROOM, similars
 
 ## Limitations:
-This is specifically designed for Linux(arch) but can work on: MacOS Debian-based linux distros, red-hat-based linux distros. To run on Windows listento the following instructions:
+This is specifically designed for Linux(arch) but can work on: MacOS, Debian-based linux distros, red-hat-based linux distros. To run on Windows listen the following instructions:
 
 Instead to running the server by using `run.sh` you will use `run.bat`. Press win+R and type cmd to open terminal. then run this:
 
