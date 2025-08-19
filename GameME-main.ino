@@ -238,7 +238,7 @@ TIPS for Arduino IDE
   CTRL + I for suggestion
 
 DETAILS
-  Sketch uses 926559 bytes (70%) of program storage space. Maximum is 1310720 bytes.
+  Sketch uses ~926500 bytes (70%) of program storage space. Maximum is 1310720 bytes.
   Global variables use 44804 bytes (13%) of dynamic memory, leaving 282876 bytes for local variables. Maximum is 327680 bytes.
   Tested using FreeRTOS
   My OS is Manjaro Arch linux
