@@ -122,7 +122,7 @@ void checkForHeartbeat() { // Function to check for heartbeat messages from the 
   if (millis() - lastHeartbeat >= heartbeatInterval) { // If no heartbeat received for a while
     if (client.available()) { // If client is available, read heartbeat
       String response = client.readStringUntil('\n');
-      if (response == "HB") {
+      if (response == "M") {
         client.println("OK");
         lastHeartbeat = millis();
       }
