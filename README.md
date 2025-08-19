@@ -58,7 +58,7 @@ Games/
 
 ### OS:
 
-Tested on Arch Linux, but can be compatible just the `run.sh` may need to be changed. RTOS: FreeRTOS. Boards recomended: ESP32 dev-kit, ESP32-WROOM, similars
+Tested on Arch Linux, but can be compatible just the `run.sh` may need to be changed. Boards recomended: ESP32 dev-kit, ESP32-WROOM, similars
 
 ## Limitations:
 This is specifically designed for Linux(arch) but can work on: MacOS Debian-based linux distros, red-hat-based linux distros. To run on Windows listento the following instructions:
